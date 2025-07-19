@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/916ad28b21.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi there! I am <span>Srusti Saranjana</span></h1>
+                <p>a passionate  web developer</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/passport.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm Srusti Saranjana Pradhan – a passionate full-stack web developer and creative storyteller. I specialize in building responsive websites using React.js, Node.js, and Express, with a love for clean code and user-first design.<br>
+
+Alongside development, I also explore video editing, creative content as a side passion – adding a visual edge to my technical skillset. I believe in blending technology with creativity to craft experiences that connect, inspire, and solve real-world problems.<br>
+
+Let’s build something amazing together!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web developement</span><br>HTML5, CSS3, JavaScript, Node.js, Express.js, MongoDB,REST APIs, Git & GitHub</li>
+                            <li><span>React developement</span><br>React.js, API integration & Responsive Design</li>
+                            <li><span>Video Editing</span><br>Adobe, Canva, Capcut</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2022-2025</span><br>Bsc in computer Science from Utkal University(81.20%)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Full stack Web Desginer</h2>
+                    <p> I build modern, responsive, and performance-driven websites using HTML, CSS, JavaScript, Node.js, Express, and MongoDB. Whether it's a static site or a dynamic web app, I focus on clean code and smooth user experience.
+                    </p>
+                      
+                </div>
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>React Developer</h2>
+                    <p>Specializing in React.js, I create fast, interactive UIs with reusable components, state management, and seamless API integration. From landing pages to full-fledged SPAs, I make sure your frontend is polished and responsive.
+                    </p> 
+                </div>
+                 <div>
+                    <i class="fa-solid fa-file-video"></i>
+                    <h2>Video Editor</h2>
+                    <p>While my primary focus is web development, I also offer basic video editing capabilities useful for internal demos, UI walkthroughs, product showcases, or presentation content. Using tools like Adobe Premiere Pro and CapCut, I can create clean, professional edits to support technical or marketing efforts.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!-------------------------------------Portfolio------------------------------------->
+<!-------------------------------------Portfolio------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+        
+            <!-- Project 1 -->
+           <!-- Project 1 -->
+<div class="work">
+    <img src="images/project1.jpg">
+    <div class="layer">
+        <h3>Personal Portfolio Website</h3>
+        <p>Tech Stack: HTML, CSS, JavaScript, Node.js, Express.js<br>
+        My own responsive portfolio website with smooth scroll, working contact form, and backend integration.</p>
+        <a href="http://portfolio-kohl-nu-53.vercel.app" target="_blank">
+            <i class="fa-solid fa-up-right-from-square"></i>
+        </a>
+    </div>
+            </div>
+            <!-- Project 2 -->
+<div class="work">
+    <img src="images/2ndproject.jpg">
+    <div class="layer">
+        <h3>To-Do List App</h3>
+        <p>Tech Stack: React.js, Tailwind CSS<br>
+        A sleek and responsive task management app using React. Supports add/delete/mark complete and uses localStorage.</p>
+        <a href="http://to-do-list-mu-indol-46.vercel.app" target="_blank">
+            <i class="fa-solid fa-up-right-from-square"></i>
+        </a>
+    </div>
+</div>
+
+            <!-- Project 3 -->
+<!-- Project 3 -->
+<div class="work">
+    <img src="images/3rdproject.png">
+    <div class="layer">
+        <h3>Amazon Clone</h3>
+        <p>Tech Stack: HTML, CSS, JavaScript<br>
+        A static Amazon homepage clone with frontend-only implementation. Replicates layout and basic interactivity.</p>
+        <a href="https://amazon-clone-two-henna.vercel.app" target="_blank">
+            <i class="fa-solid fa-up-right-from-square"></i>
+        </a>
+    </div>
+</div>
+
+        
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+<!----------------------------------------contact----------------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>pradhansrustisaranjana25@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9827996967</p>
+                  <a href="images/Sruuuss_Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+<div class="copyright">
+    <p>Copyright © 2025 Srusti | Portfolio Project</p>
+</div>
+</div>
+    <Script>
+         var tablinks = document.getElementsByClassName("tab-links");
+          var tabcontents = document.getElementsByClassName("tab-contents");
+
+          function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+          }
+    </Script>
+    <script>
+        var sidemennu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+         function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwKe8CsaTuoz0py5_tDUSt5CD5FcuLj0Jt41J9ZHwM0l_xR4WVG8ThdoUv_esJwDXot/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
